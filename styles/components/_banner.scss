@@ -16,6 +16,9 @@
         h1{
             font-size: $tamanho-do-texto;
             color: $cor-primaria;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
         }
         h2{
             font-size: $tamanho-do-texto / 2;
