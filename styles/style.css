@@ -149,4 +149,53 @@ nav ul li a:hover {
   color: #4E6C50;
   background-color: black;
   border-color: #4E6C50;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #395144;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #395144, #4E6C50, #AA8B56, #393E46);
+}
+footer i {
+  color: red;
+}
+
+#flores-pedras {
+  display: block;
+  justify-content: center;
+  margin: 80px;
+  text-align: center;
+  font-weight: 300;
+  padding: 0.5rem;
+}
+#flores-pedras h3 {
+  color: #395144;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border-top: 2px solid #393E46;
+  padding-top: 1rem;
+}
+#flores-pedras h4 {
+  color: #393E46;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+#flores-pedras p {
+  color: #393E46;
+  font-size: 1rem;
+}
+#flores-pedras .imagem {
+  padding-bottom: 2px;
+  width: 100%;
+  text-align: center;
+}
+#flores-pedras .imagem img {
+  max-width: 360px;
+  border: 2px solid #395144;
+  border-radius: 40px;
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=style.css.map */

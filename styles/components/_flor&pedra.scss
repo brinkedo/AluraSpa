@@ -1,0 +1,38 @@
+@import '../abstract/variables';
+
+#flores-pedras{
+    display: block;
+    justify-content: center;
+    margin: 80px;
+    text-align: center;
+    font-weight: 300;
+    padding: 0.5rem;
+    h3{
+        color: $cor-primaria;
+        font-weight: bold;
+        font-size: $tamanho-do-texto /2.5;
+        text-transform: uppercase;
+        border-top: 2px solid $cor-quaternaria;
+        padding-top: 1rem;
+    }
+    h4{
+        color: $cor-quaternaria;
+        font-size: $tamanho-do-texto / 3;
+        padding: 0.5rem;
+    }
+    p{
+        color: $cor-quaternaria;
+        font-size: $tamanho-do-texto / 3;
+    }
+    .imagem{
+        padding-bottom: 2px;
+        width: 100%;
+        text-align: center;
+        img{
+            max-width: 360px;
+            border: 2px solid $cor-primaria;
+            border-radius: 40px;
+            margin-bottom: 1rem;
+         }
+    }
+}
